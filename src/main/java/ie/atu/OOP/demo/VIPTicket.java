@@ -2,7 +2,8 @@ package ie.atu.OOP.demo;
 
 public class VIPTicket extends Ticket{
 
-    public VIPTicket(String eventName, String holderNumber, double basePrice) {
+    public VIPTicket(String eventName, String holderNumber, double basePrice)
+    {
         super(eventName, holderNumber, basePrice);
     }
 
