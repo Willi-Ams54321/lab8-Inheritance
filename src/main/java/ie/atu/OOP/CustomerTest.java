@@ -2,17 +2,16 @@ package ie.atu.OOP;
 
 public class CustomerTest {
     public static void main(String[] args) {
-        Customer firstCustomer = new Customer("Paul","54321","Gort",12345,true);
-        System.out.println(firstCustomer);
-
-        Customer secondCustomer = new Customer();
-        secondCustomer.setName("Bob");
-        secondCustomer.setPhoneNumber("54321");
-        secondCustomer.setAddress("Bob Street");
-        secondCustomer.setCustomerNumber(123);
-        secondCustomer.setMailingList(false);
-        System.out.println("");
-        System.out.println(secondCustomer);
-
+        Customer first = new Customer(
+                "Paul L", "1 High Street", "0851234567", 1001, true);
+        Customer second = new Customer();
+        second.setName("Bob Jones");
+        second.setAddress("2 Low Street");
+        second.setPhoneNumber("0867654321");
+        second.setCustomerNumber(1002);
+        second.setMailingList(false);
+        System.out.println(first);
+        System.out.println(second);
     }
 }
+
