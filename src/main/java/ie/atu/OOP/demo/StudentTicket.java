@@ -3,13 +3,13 @@ package ie.atu.OOP.demo;
 public class StudentTicket extends Ticket {
     private String studentId;
 
-    public StudentTicket(String eventName, String holderNumber, double basePrice, String studentId)
+    public StudentTicket(String eventName, String holderName, double basePrice, String studentId)
     {
-        super(eventName, holderNumber, basePrice);
+        super(eventName, holderName, basePrice);
         this.studentId = studentId;
     }
 
-    public String getStudentId()
+    public String getstudentId()
     {
         return studentId;
     }
