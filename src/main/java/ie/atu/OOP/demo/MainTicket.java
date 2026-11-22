@@ -12,7 +12,7 @@ public class MainTicket {
         System.out.println("VIP Ticket      - " + VIPTicket.getholderName() + ": €" + String.format("%.2f",VIPTicket.getcalculatePrice()));
 
         System.out.println("Student ID: "+ ((StudentTicket) StudentTicket).getstudentId());
-        System.out.println("Benefits: "+ ((VIPTicket) VIPTicket).getbenefits);
+        System.out.println("Benefits: " + ((VIPTicket) VIPTicket).getBenefits());
 
     }
 }

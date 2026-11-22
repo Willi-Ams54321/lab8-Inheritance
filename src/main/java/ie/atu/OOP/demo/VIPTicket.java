@@ -2,7 +2,7 @@ package ie.atu.OOP.demo;
 
 public class VIPTicket extends Ticket{
 
-    private String benefits;
+    public String benefits;
 
     public VIPTicket(String eventName, String holderName, double basePrice)
     {
@@ -15,7 +15,7 @@ public class VIPTicket extends Ticket{
         return price+25;
     }
 
-    public void getBenefits(String benefits) {
-        System.out.println("Priority entry and reserved seating");
+    public String getBenefits() {
+        return "Priority entry and reserved seating";
     }
 }
